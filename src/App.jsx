@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import { fetchImages } from './gallery-api';
 import LoadMoreBtn from './components/LoadMoreBtn/LoadMoreBtn';
-import Loader from './components/ImageCard/Loader/Loader';
+import Loader from './components/Loader/Loader';
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
