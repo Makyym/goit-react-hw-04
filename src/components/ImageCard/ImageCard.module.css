@@ -1,0 +1,9 @@
+.div {
+    width: 400px;
+    height: 250px;
+    & img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
